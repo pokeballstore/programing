@@ -8,7 +8,7 @@
 
 Welcome to my programming journey!  
 This repo contains all my work, experiments, and notes from the course **Programmering Nivå 1 (Närundervisning)** at [Vuxenutbildning Skövde](https://skovde.se/vux).  
-It’s equivalent to the classic *Programmering 1* — but with a personal twist.
+
 
 ---
 
