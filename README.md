@@ -20,25 +20,11 @@ This repo contains all my work, experiments, and notes from the course **Program
 
 ---
 
-## 🛠 Skills & Concepts Covered
-- Variables, Data Types & Operators
-- Functions & Scope
-- Loops & Conditionals
-- Arrays & Objects
-- DOM Manipulation
-- Event Handling
-- Debugging
-- Git & GitHub Basics
+
 
 ---
 
-## 🗂 Repository Structure
-| Folder / File | Description |
-|---------------|-------------|
-| `lesson-01`   | First steps with JavaScript |
-| `lesson-02`   | Working with input/output |
-| `projects/`   | Bigger coding challenges |
-| `notes/`      | My personal notes |
+
 
 ---
 
@@ -48,15 +34,15 @@ This repo contains all my work, experiments, and notes from the course **Program
 ---
 
 ## 🖥 Setup
-- Any modern browser (Chrome, Firefox, Edge)
-- Text editor (VS Code recommended)
-- Node.js for running JS locally (optional)
+- Any modern browser Firefox
+- Text editor VS Code
+
 
 ---
 
 ## 💡 Inspiration
 > *"The best way to predict the future is to invent it."* – Alan Kay  
-> *"Talk is cheap. Show me the code."* – Linus Torvalds
+
 
 ---
 
