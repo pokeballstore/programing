@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Lesson 04 - Two States - Title -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+// Store the input as a variable
+var number = 3;
+
+// Create a message for the user
+var message = "Your input is: ";
+
+// Output both of the variables using "+" between the variable names
+console.log(message + number); 
+
+// Output the number variable, a string 
+// and then the result of the Boolean function
+console.log(number + " is " + Boolean(number)); 
+
+
+</script>
+
+<!--
+==============================
+ Lesson  Notes 
+==============================
+
+This is just a copy paste from the lesson page.
+I cannot figure out what Boolean is for.
+That makes me reluctant to try it in other ways.
+
+==============================
+ Lesson  Notes for the future 
+==============================
+
+-->

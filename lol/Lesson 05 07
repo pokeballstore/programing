@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+// 1. "x" < "y"
+
+console.log("x" < "y"); // true
+
+//Both are strings, not numbers.
+//JavaScript compares them alphabetically (like a dictionary).
+
+// "x" comes before "y", so:
+
+//2. "500" > "6"
+
+// Here both are also strings (because they’re inside quotes).
+// That means JavaScript compares them alphabetically character by character (not as numbers).
+
+// "5" (the first character in "500") is compared to "6".
+
+console.log("500" > "6"); // false
+
+
+// Since "5" comes before "6" in the Unicode table, "500" is considered smaller than "6".
+
+// If i remove the qoute so it is only integers me and the computer uses the same logic 
+ console.log(500 > 6); // True
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+Chat gpt gave me the answer and i get the point and will dig deeper in to it if you want us to
+
+Remember : Integers is number. Heltal på svenska alltså inte med decimaler
+==============================
+ Lesson Notes for the future 
+==============================
+What is numbers with decimals called?
+-->

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+var secret = 7;
+var guess = prompt("Pick a number between 1 and 10");
+
+if (guess == secret) {
+  console.log("You guessed right!");
+}
+else if (guess > secret) {
+  console.log("Too high! Try a smaller number.");
+}
+else {
+  console.log("Too low! Try a bigger number.");
+}
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+This Lesson contained a lot.
+Using of else if and else was not so much creativity invovled . Been a long day a need to revist this lesson before Lesson 6.
+
+
+
+==============================
+ Lesson Notes for the future 
+==============================
+ 
+Googled around for odd stuff in javascript.
+ "2" + 1 vs "2" - 1
+ console.log("2" + 1); // "21"
+ console.log("2" - 1); // 1
+ Division by zero
+ console.log(1 / 0);   // Infinity
+ console.log(-1 / 0);  // -Infinity
+
+-->

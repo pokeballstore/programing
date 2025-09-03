@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Lesson 04 - Two States - Title -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+
+
+<script>
+
+// Store the input as a variable
+var input = "This is the input data";
+
+// Process the input using the Boolean function
+// and store the output as a variable
+var output = Boolean(input);
+
+// Then we can show the output on the screen
+document.write(output);
+
+</script>
+
+
+
+<!--
+==============================
+ Lesson  Notes 
+==============================
+
+var input = "This is the input data";
+
+There is a variable called input.
+
+Its value is a string (text).
+
+var output = Boolean(input);
+
+Here the computer takes that input value and pass it into the built-in function Boolean(...).
+
+Boolean("This is the input data") checks:
+
+Is this value truthy (something that exists, non-empty, non-zero)? → ✅ Yes.
+
+Result = true.
+
+That result (true) gets stored in a new variable called output.
+
+document.write(output);
+
+Finally, you documnet.write tells the browser: “Write the value of output onto the page.”
+
+Since output holds the result of Boolean(input), the browser prints true.
+
+It would have been false if it contained "" (empty string), 0, null, undefined, NaN, and false
+
+
+==============================
+ Lesson  Notes for the future 
+==============================
+What is Boolean for? 
+-->

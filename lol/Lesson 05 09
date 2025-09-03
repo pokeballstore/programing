@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+var age = 18;
+document.write("You are " + age + " years old. ");
+
+if (age <= 3) {
+  document.write("You are a baby.");
+}
+if (age <= 12) {
+  document.write("You are a child.");
+}
+if (age <= 19) {
+  document.write("You are a teenager.");
+}
+if (age <= 65) {
+  document.write("You are an adult.");
+}
+if (age <= 140) {
+  document.write("You are a senior citizen.");
+}
+else {
+  document.write("This is not a valid age.");
+}
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

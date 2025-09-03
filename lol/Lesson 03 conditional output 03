@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Lesson 03 - Conditional Output, mock the user -->
+<!-- Save as lesson03_yes_no.html -->
+<meta name="color-scheme" content="dark">
+
+<script>
+// Variables
+var answer;
+var input;
+// INPUT
+
+input = prompt("This is a challenge correct answer on every question will grant you a prize!)"); // get user input
+answer = prompt("Are you smart? (Answer 'YES' or 'NO')");
+
+// DEBUG
+console.log("Raw answer:", answer);
+console.log("Lowercased:", answer.toLowerCase());
+
+// DECISION (process to lowercase to handle YES/Yes/yeS/etc.)
+if (answer.toLowerCase() == "yes") {
+  document.write("That is incorect ");
+}
+else {
+  document.write("Sorry to hear that, then there's no pizza for you.");
+}
+</script>

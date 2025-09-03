@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+//If you also want to check if the inputs are the same OR "greater than", then use an equals sign = directly AFTER the "greater than" > operator.
+
+var a = 1;
+var b = 1;
+var c = 2;
+
+console.log("Less Than Operator" , a > b); 
+// The output is FALSE because 1 is equal to 1
+
+console.log("Less Than Operator 'Is 2 bigger than 1'" , c > b); 
+// The output is TRUE because 2 is bigger than 1
+
+console.log("Less Than Operator 'Is 1 bigger then 2'" , b > c); 
+// The output is FALSE because 1 is less than 2
+
+console.log("Greater Than Or Equal To Operator" , a >= b); 
+// The output is TRUE because 1 is equal to 1
+
+console.log("Greater Than Or Equal To Operator" ,c >= b); 
+// The output is TRUE because 2 is bigger than 1
+
+console.log("Greater Than Or Equal To Operator" ,b >= c); 
+// The output is FALSE because 1 is less than 2
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+console.log("Less Than Operator 'Is 1 less then 2'" , b > c); 
+// The output is FALSE because 1 is less than 2
+First i tried to use "string " "string" , variable
+It did not work so i changed it to be in same string but with a quatation mark.
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

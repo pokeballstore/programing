@@ -1,0 +1,12 @@
+<!-- Lesson 01 - Hello World! -->
+<!-- In this lesson we learn about input, output and variables -->
+<!-- Save this file as hello.html and open it in your web browser -->
+
+<!-- Start writing JavaScript code -->
+<script>
+// Create your variables at the top of the program
+// Strings are text inside quotation marks ""
+
+alert("hello world");
+</script>
+

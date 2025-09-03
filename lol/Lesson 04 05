@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Lesson 04 - Two States - Title -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+// Write the input that you want to check here
+var input = 0;
+
+// Process the input and save the result as a variable
+var output = Boolean(input);
+
+// Show the input and output to the user
+document.write(input + " is " + output);
+
+
+</script>
+
+<!--
+==============================
+ Lesson  Notes 
+==============================
+
+Still copy and paste from the lesson page.
+I think just need to push through this lesson and hope it makes sense later. 
+Otherwise i will revisit it later.
+
+
+==============================
+ Lesson  Notes for the future 
+==============================
+
+-->

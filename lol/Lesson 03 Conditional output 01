@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Lesson 03 - Conditional Output (Magic Number) -->
+<!-- Save as lesson03_magic_number.html -->
+<!-- Check the Programs guide before starting this lesson. -->
+<meta name="color-scheme" content="dark">
+
+<!-- Start of the program -->
+<script>
+// Create variables at the top
+var input; // the string from the user (prompt) will be stored here
+var number; // this variable will hold the converted number to be used later
+
+// INPUT: ask the user with a prompt
+input = prompt("What is the magic number?"); // get input from user (always a string) and store in 'input'
+
+// PROCESS: convert string to a number for numeric comparison
+number = Number(input); // convert the string to a number
+
+// DEBUG (developer console)
+console.log("User typed (raw): " + input); // see what the user typed
+console.log("Converted to number: " + number); // see if the conversion worked and what number we have but that you also see in console.log under input...
+
+// DECISION: if / else
+if (number == 3) {
+  // Positive output
+  document.write("Yes, 3 IS the magic number!"); // if the user typed 3, this line will run
+}
+else {
+  // Negative output
+  document.write("No, that is not the magic number!"); // if the user typed anything else, this line will run
+}
+</script>
+
+<!--
+==============================
+ Lesson 03 Notes (Glossy)
+==============================
+- Use: if (condition) { ... } else { ... }
+- '==' compares values. '=' assigns a value.
+Be ware of curly brackets are "whole"
+Depending on the string the user types, the output will be different. if in this case is the correct answer is 3. When it matches the program will run in this case a document.write with a positive message.
+If (no pun intended) the user types anything else, the else part will run and show a negative message.
+-->

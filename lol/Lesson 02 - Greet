@@ -1,0 +1,48 @@
+<!-- Lesson 02 - Getting input with prompt and showing output -->
+<!-- Save as lesson02_prompt_greet.html and open in a browser -->
+<!-- Tip: Open DevTools console with F12 to see console.log output -->
+
+<script>
+// 1) Variables at the top
+// Strings are text between double quotes
+var name;
+
+// 2) INPUT: ask the user for their name (prompt returns a STRING)
+name = prompt("What is your name?");
+
+// 3) PROCESS: build a greeting (string concatenation with +)
+var greeting = "Hello, " + name + "!";
+
+// 4) OUTPUT: show the result in different ways
+alert(greeting);                 // popup dialog
+document.write(greeting);        // writes on the page
+console.log("Greeted: " + name); // writes in the console
+</script>
+
+<!-- Notes and ELI5 for lesson 02 -->
+<!-- This is the way to write the comments in html under the script without creating plain text, you find the notes in consol.log under F12 -->
+<!--// This is a comment on one line in javascript inside the script-->
+<!-- /* This is a comment
+   on multiple lines */ -->
+<!-- The html comments is found under html in the console log, it is not good way yet, i dont want to put the notes inside the script becasue the notes will be longer then the program -->
+
+<!-- prompt("…") → You ask the user to hand you a paper with something written on it.
+The paper you receive is always text (a string), even if it looks like a number.
+
+var input = prompt(...) → You make a folder (input) and put the user’s paper (string) inside. Now we say: “Don’t just hold the paper in the air. Put it inside a folder so we can find it later.”
+
+document.write(...) → You pin the paper to the front of the page so everyone can see it.
+
+console.log(...) → You write a note in your private developer notebook (the console).
+It doesn’t show on the page; it’s for you while you test/fix.
+
+String concatenation ("Hello " + name) → You tape two papers together to make one longer paper.
+
+Number(...) / parseInt(...) / parseFloat(...) → You convert a paper that says "5" into an actual number token 5 that the calculator can use.
+If the paper is nonsense for math → you get NaN (not a valid number token).
+
++ rules:
+
+If both folders contain numbers, + is a calculator (adds).
+
+If one (or both) contain strings, + is a stapler (joins text).-->

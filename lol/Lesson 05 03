@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators-->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+var a = 1;
+var b = 1;
+var c = 2;
+
+console.log("a=b", a == b); 
+// The output is TRUE
+
+console.log("a=c", a == c); 
+// The output is FALSE because "a" and "c" are not the same
+
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+Tried to ad a descriptive text to the console.log output.
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

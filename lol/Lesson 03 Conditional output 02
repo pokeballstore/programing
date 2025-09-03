@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Lesson 03 - Conditional Output (YES/NO with toLowerCase) -->
+
+<meta name="color-scheme" content="dark">
+
+<script>
+// Variables
+var answer;
+
+// INPUT
+answer = prompt("Do you like pineapple on pizza? (Answer 'YES' or 'NO')");
+
+// DEBUG
+console.log("Raw answer:", answer);
+console.log("Lowercased:", answer.toLowerCase());
+
+// DECISION (process to lowercase to handle YES/Yes/yeS/etc.)
+if (answer.toLowerCase() == "yes") {
+  document.write("Great! Me too! Here you can have a slice 🍕");
+}
+else {
+  document.write("Sorry to hear that, then there's no pizza for you.");
+}
+</script>
+
+<!--
+==============================
+ Lesson 03 Notes
+==============================
+- Strings are case-sensitive: "Yes" ≠ "yes".
+- Normalize with answer.toLowerCase() (or toUpperCase()) before compare.
+- This single check matches: "yes" "Yes" "yEs" ... "YES".
+
+remember doubble == for if to work
+
+you can essentially decide what ever you want with if and else statements. i will try to make a example with if and else staments that will mock the user and say the user is wrong no matter what they type.You find it in Lesson 03 conditional output 03.html
+I changed the name to riddle and will send it to a friend that is full stack developer
+-->

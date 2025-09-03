@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+// Ask the user for an input
+var choice = prompt("Pick a number between 1 and 3");
+// If the input choice is equal to 1
+if (choice == "1") {
+  // Confirm the result
+  console.log("You picked number one!");
+}
+// If the input choice is equal to 2
+if (choice == "2") {
+  // Confirm the result
+  console.log("You picked number two!");
+}
+// If the input choice is equal to 3
+if (choice == "3") {
+  // Confirm the result
+  console.log("You picked number three!");
+}
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->
+

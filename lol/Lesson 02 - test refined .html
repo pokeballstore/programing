@@ -1,0 +1,28 @@
+<!-- Lesson 02 - Doubling a number with prompt -->
+<!-- Save this file as lesson02_double_number.html and open it in your browser -->
+
+<script>
+// Step 1: Create variables at the top
+var input;
+var number;
+
+// Step 2: INPUT - ask the user for a number (prompt always returns a STRING)
+input = prompt("Enter a number:");
+
+// Step 3: PROCESS - convert the STRING into a NUMBER
+number = Number(input);
+
+// Debug information (for the programmer, not the user)
+// You can open the Console (F12 → Console tab) to see this message
+console.log("If the conversation works the number is: " + number); //before i put this in the console log i had it in the document.write but that is not good for the user. In the refined test I put this in the console.log
+
+// Step 4: OUTPUT - show results to the user on the web page
+document.write("You typed: " + input + "<br>"); // shows the raw string input
+document.write("Doubble that number is: " + (number * 2)); // shows the calculation result
+
+// lets see if i can find a new way to write the notes without putting them in the outside of the script and also to keep it clean.
+// Ok, chat gpt wants me to put the notes in html comments on top of the script in <!DOCTYPE but i will put bigger keypoints under the script in html comments so it is not plain text on the page but still easy to read for me.
+// The next Lesson i will make a template for the html and javascript so it is easier to start a new lesson without writing the same code over and over again. 
+
+
+</script>

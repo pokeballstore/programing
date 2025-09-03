@@ -1,0 +1,28 @@
+<!-- Lesson 02 Example -->
+<script>
+// Create variables
+var input;
+var number;
+
+// Input from user
+input = prompt("Enter a number:");
+
+// Convert string to number
+number = Number(input); // converts the string from the prompt into a number
+
+// Output
+document.write("You typed: " + input + "<br>"); // Will be displayed as text on the page
+document.write("I can show you what happens when we doubble your number: " + number + "<br>"); // just to explain what is happening and repeat the number for no reason... 
+document.write("Double that number is: " + (number * 2)); // divde by 2 with /, add with +, subtract with -
+</script>
+<!--prompt always gives text (string).
+
+To do math, convert the string into a number with Number(...), parseInt(...), or parseFloat(...). But i dont know the difference yet.
+
+alert = popup, document.write = page, console.log = console.
+
+" " = string (text), no quotes = number.
+
++ with numbers = addition, + with strings = join text. * with numbers = multiplication. / with numbers = division.
+
+Invalid conversion = NaN (Not a Number). If the user put a letter in the prompt-->

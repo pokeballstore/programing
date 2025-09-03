@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators-->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+//If you want to check if one input is smaller than another input then you can use the "less than operator" which is the "left angle bracket"::
+
+
+var a = 1;
+var b = 1;
+var c = 2;
+
+console.log(a != b); 
+// The output is FALSE because the numbers are the same
+
+console.log(a != c); 
+// The output is TRUE because "a" and "c" are not the same
+
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+Haha, sometimes the simplest things are the hardest to figure out.
+It gives reverse results then without ! lol.
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

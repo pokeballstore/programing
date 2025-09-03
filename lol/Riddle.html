@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--Riddle -->
+<!-- You will find a clue in a monastery  -->
+<meta name="color-scheme" content="dark">
+
+<script>
+
+// Introduction with alert
+// Variables, introduction
+var introduction = "This is a challenge: correct answer on every question will grant you a prize!";
+
+// Alert, introduction
+alert(introduction);
+
+// Variables
+var input;
+var answer;
+
+
+// INPUT
+
+input = prompt("If you understand write anything"); // no if or else here.
+answer = prompt("Are you enlightened?"); // The answer is a question
+
+// DEBUG
+console.log("Raw answer:", answer);
+console.log("Lowercased:", answer.toLowerCase());
+
+// DECISION (process to lowercase to handle YES/Yes/yeS/etc.)
+if (answer.toLowerCase() == "is this a koan?") {
+  document.write("Transcendence of Logic. You stopped relying on rational thoughts, leading you beyond dualistic thinking where things are seen as separate entities 🧘‍♂️");
+}
+else {
+  document.write("Sorry, you were wrong, try again. Read the story and remember, your body is the temple of the soul. A monk felt restless, convinced that enlightenment or ultimate truth lay somewhere else. He left his monastery and traveled across the world — through deserts, mountains, and great cities — seeking teachers, sages, and secrets. He studied everywhere, but the deeper he went, the more he realized he wasn’t satisfied. Years later, weary and discouraged, he returned home. Sitting again in the quiet of his own monastery, he suddenly saw with clarity: what he had sought in distant lands was always here. It wasn’t hidden in the world but in his own heart and practice. ");
+}
+</script>
+
+<!--
+Oh you have found your way here. You must ask what this is 
+
+==============================
+Notes to self or intruder
+==============================
+
+When I have a prompt under the alert, the alert window will have an answer box under it so the user can type in the answer.
+
+But I do not want that. I am having a chat with GPT to figure out how to make the prompt come after the alert is closed.
+
+Hm, it seems that I broke your rules, Collin. Sorry about that.
+
+My plan was to mock the user by saying they are wrong no matter what they type. But I got an idea to make a riddle / koan question instead.”
+Did you know that a koan is a paradoxical anecdote or riddle, used in Zen Buddhism to demonstrate the inadequacy of logical reasoning and to provoke enlightenment.
+
+And your body is the temple of the soul. 
+
+If you truly understand, you had the answer in you all along.
+
+-->

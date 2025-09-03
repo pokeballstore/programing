@@ -1,0 +1,35 @@
+<!-- Lesson 01 - Hello World! -->
+<!-- In this lesson we learn about input, output and variables -->
+<!-- Save this file as hello.html and open it in your web browser -->
+
+<!-- Start writing JavaScript code -->
+<script>
+// Create your variables at the top of the program
+// Strings are text inside quotation marks ""
+var hello = "Hello World!";
+
+// Show the result on the screen with a dialog box
+alert(hello);
+</script>
+
+// Notes and ELI5 for lesson 01 
+// var = tells the computer “I’m making a new folder/binder on the shelf.”
+
+// hello = the label or tab on the folder, so you can find it later.
+
+// "Hello World!" = the notes/papers inside the folder. That’s the actual content stored.
+
+// alert(hello) = you take the folder off the shelf, open it, and show what’s inside to the user in a pop-up window.
+
+// So in code: 
+// var hello = "Hello World!";
+// alert(hello);
+// First line: you make a folder called hello, and inside you put a paper that says Hello World!.
+
+// Second line: you show the contents of that folder to whoever is looking at the screen.
+
+// If you wrote this instead: When you put double quotation marks, you create a string (a string is just text for the computer, not something to execute).
+// alert("Hello World!");
+// You would skip the folder part and just show the paper directly.
+// This is useful if you only need to show something once and don’t need to store it for later.
+// Open Lesson 01 alert string to see the difference.

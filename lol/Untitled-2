@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- Lesson 03 - Conditional Output, mock the user -->
+<!-- Save as lesson03_yes_no.html -->
+<meta name="color-scheme" content="dark">
+
+<script>
+// Variables
+var introduction = "This is a challenge correct answer on every question will grant you a prize!";
+var input;
+var answer;
+
+// Alert
+alert(introduction);
+// INPUT
+
+
+</script>
+
+<!--
+==============================
+ Lesson 03 Notes (Glossy)
+==============================
+
+-->

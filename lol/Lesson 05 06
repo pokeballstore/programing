@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Lesson 05 Operators -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+// If you also want to check if the inputs are the same OR "less than", then use an equals sign = directly AFTER the "less than" < operator.
+var a = 1;
+var b = 1;
+var c = 2;
+
+console.log("Is 1 equal or less than 1" , a <= b); 
+// The output is TRUE because 1 is equal to 1
+
+console.log("Is 2 equal or less than 1" , c <= b); 
+// The output is FALSE because 2 is bigger than 1
+
+console.log("Is 1 equal or less then 2" , b <= c); 
+// The output is TRUE because 1 is less than 2
+
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+ 
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

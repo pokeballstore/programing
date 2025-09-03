@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Lesson 05 - Operators -->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+// Create the variables at the top of the program
+var a = 1;
+var b = 2;
+
+console.log(a + b);
+// The result will be 3
+
+console.log(b - a);
+// The result will be 1
+
+console.log(b * b);
+// The result will be 4
+
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+Copy of code from lesson 04 to test my self and see the results in console.
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

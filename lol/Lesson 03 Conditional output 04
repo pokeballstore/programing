@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Lesson 03 - Conditional Output,  -->
+<!-- Problems when comparing strings -->
+<meta name="color-scheme" content="dark">
+
+<script>
+// Test 1
+if ("three" == "THREE") {
+  // Will we see this output?
+  console.log("Test 1 works!");
+}
+// Test 2
+if ("three" == "Three") {
+  // Will we see this output?
+  console.log("Test 2 works!");
+}
+// Test 3
+if ("three" == "three ") {
+  // Will we see this output?
+  console.log("Test 3 works!");
+}
+// Test 4
+if ("three" == "three!") {
+  // Will we see this output?
+  console.log("Test 4 works!"); 
+}
+// Test 5
+if ("three" == "three") {
+  // Will we see this output?
+  console.log("Test 5 works!"); 
+}
+</script>
+
+<!--
+==============================
+ Lesson 03 Notes 
+==============================
+Only Test 5 works → it will print: "Test 5 works!" in the console.
+-->

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Lesson 04 - Two States - Title -->
+<!-- Lesson 04 0 -->
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+// Create two number variables
+var a = 1;
+var b = 2;
+// Show both of the input variables on the same line:
+console.log(a + " " + b); 
+// Note that this output looks like 2 numbers! "1 2"
+
+</script>
+
+<!--
+==============================
+ Lesson  Notes 
+==============================
+
+
+
+==============================
+ Lesson  Notes for the future 
+==============================
+
+-->
