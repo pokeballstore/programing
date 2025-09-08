@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- Age hacker -->
+
+<meta name="color-scheme" content="dark">
+
+<script>
+
+    
+// ==============================
+// 1) INTRODUCTION to age hacker
+// ==============================
+// This program asks for your name and age,
+// then "hacks" your age into 21.
+// Always 21, no matter what number you type in!
+// If they type something that’s not a number, they will get a message
+// telling them not to try to break the program. And that is mainly for Collin.... 
+
+// ==============================
+// 2) Start
+// ==============================
+
+
+// Start with an alert so the user knows what’s coming
+alert("Welcome! To the Age Hacker");
+
+// ==============================
+// 3) INPUT in prompt boxes
+// ==============================
+// Ask the user for their name
+var name = prompt("What is your name?");
+
+// Ask the user for their current age
+var ageInput = prompt("How old are you?");
+var age = Number(ageInput); // Convert from string to number
+
+// ==============================
+// 4) PROCESS the input from prompt boxes
+// ==============================
+// Always turn their age into 21
+var hackedAge = 21;
+
+// Prepare output text
+var message;
+
+if (isNaN(age)) {
+  message = "Don't try to break me. I'm fragile and I might do bad things from my basement!";
+} else {
+  message =
+    "Hi " + (name || "friend") + "! You told me you are " + age + ". " +
+    "But don't worry… I hacked your age into " + hackedAge + "! " +
+    "Now I have hacked your age, " + (name || "friend") +
+    ". You can do whatever you want and feel vital for the rest of your life!";
+}
+
+// ==============================
+// 5) OUTPUT the result both in alert and document write
+// ==============================
+// Show result on the page
+document.write(message);
+
+
+// Test pop up alert and document write
+// If input is NaN (not a number) → they get the basement message.
+// We could also just convert everything to 21 no matter if it’s a string or number.
+// But this way i have one more message to show you.
+
+if (!isNaN(age)) {
+  alert("Done! I hacked your age to " + hackedAge + ", " + (name || "friend") + ".");
+}
+
+
+
+// ==============================
+// 6) Consol log
+// ==============================
+
+
+// We can check the name, age, and also what they wrote instead of a number
+console.log("Raw input (before Number()):", ageInput);
+console.log("Original age entered:", age);
+console.log("Hacked age result:", hackedAge);
+
+
+</script>
+
+
+<!--
+
+==============================
+Notes
+==============================
+
+We combine alert and document.write to show output in two ways.
+
+==============================
+Notes for the future
+==============================
+
+It is messy with the comments, need to organize that better. but also good to be able to go back and see what i did, and thought.
+You can check in the console what the user typed wrong. 
+How do i check that as a developer? Becasuse now i am the user..... 
+
+-->
