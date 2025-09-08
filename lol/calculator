@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Lesson 06 - Calculator -->
+
+<!-- Make page black background like in lesson notes -->
+<meta name="color-scheme" content="dark">
+
+<script>
+  // Ask for the first number
+  var firstNumber = prompt("Enter the first number:");
+  firstNumber = Number(firstNumber); // convert text to number
+
+  // Ask for the operator
+  var operator = prompt("Enter an operator (+, -, *, /):");
+
+  // Ask for the second number
+  var secondNumber = prompt("Enter the second number:");
+  secondNumber = Number(secondNumber); // convert text to number
+
+  // Create result variable
+  var result;
+
+  // Check which operator was typed
+  if (operator == "+") {
+    result = firstNumber + secondNumber;
+  }
+  else if (operator == "-") {
+    result = firstNumber - secondNumber;
+  }
+  else if (operator == "*") {
+    result = firstNumber * secondNumber;
+  }
+  else if (operator == "/") {
+    result = firstNumber / secondNumber;
+  }
+  else {
+    result = "Invalid operator!";
+  }
+
+  // Show the result
+  document.write("Result: " + result);
+</script>
