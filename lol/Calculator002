@@ -33,7 +33,7 @@
     result = firstNumber / secondNumber;
   }
   else {
-    result = "Invalid operator!";
+    result = "Invalid!";
   }
 
   // Show the result
