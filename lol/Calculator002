@@ -33,9 +33,9 @@
     result = firstNumber / secondNumber;
   }
   else {
-    result = "Invalid!";
+    result = "Invalid operator!";
   }
 
   // Show the result
-  document.write("Result: " + result);
+  document.write("Result: " + firstNumber + operator + secondNumber + result);
 </script>
