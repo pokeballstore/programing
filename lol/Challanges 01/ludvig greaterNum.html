@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Lesson x -->
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+
+<script>
+// ==============================
+// 1) Variables and Input
+// ==============================
+
+var number1 = Number(prompt("What number are you thinking of?")); // prompt user can type in a number and it will be saved as variable number1
+var number2 = Number(prompt("What number are you thinking of now?")); // prompt user can type in a number and it will be saved as variable number2
+
+// ==============================
+// 2) Actions and result
+// ==============================
+
+if (number1 > number2) {
+    alert("The first number is greater than the second number."); // if check if number1 is biggest, alert box will pop up with this message
+} else if (number1 < number2) {
+    alert("The second number is greater than the first number."); // if check if number2 is biggest, alert box will pop up with this message
+} else {
+    alert("The numbers are equal. Why?"); // if the user types in the same number for both prompts this message will pop up 
+}
+
+// ==============================
+// 4) Result on the page
+// ==============================
+
+if (number1 > number2) {
+  document.write("This must be Collins favorite number: " + number1);   // If and else statement for document.write to show the biggest number on the page
+}
+else if (number2 > number1) {
+  document.write("This must be Collins favorite number: " + number2);   // If and else statement for document.write to show the biggest number on the page
+}
+else {
+  document.write("Both numbers are equal and you made me fail the test, how do you feel about that?");  // If the user puts equal numbers this message will show on the page
+}
+
+document.write()
+// ==============================
+// 3) Console log
+// ==============================
+
+// We can check in console what input we got from user
+console.log("number1:", number1); 
+console.log("number2:", number2);
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

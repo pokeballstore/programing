@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Lesson x-->
+
+
+
+<!-- For more notes in 'inspector' check <html <body>. -->
+
+<!-- 
+<meta name="color-scheme" content="dark"> 
+-->
+
+<meta name="color-scheme" content="dark">
+
+<!-- Start writing JavaScript code -->
+<script>
+
+
+// ==============================
+// 1) Variables and Input
+// ==============================
+
+var number1 = Number(prompt("What number are you thinking of?"));
+var number2 = Number(prompt("What number are you thinking of now?"));
+
+// ==============================
+// 2) Actions and result (alerts)
+// ==============================
+
+if (number1 > number2) {
+    alert("The bigger number is: " + number1);
+} 
+else if (number2 > number1) {
+    alert("The bigger number is: " + number2);
+} 
+else {
+    alert("The numbers are equal. Please refresh and do enter diffrent numbers.");
+}
+
+// ==============================
+// 3) Result on the page (document.write)
+// ==============================
+
+if (number1 > number2) {
+    document.write(number1);
+}
+else if (number2 > number1) {
+    document.write(number2);
+}
+else {
+    document.write("Numbers were equal. Try again!");
+}
+
+// ==============================
+// 4) Console log Debugging
+// ==============================
+
+console.log("number1:", number1); 
+console.log("number2:", number2);
+
+
+
+
+
+</script>
+
+<!--
+==============================
+ Lesson Notes 
+==============================
+
+
+
+==============================
+ Lesson Notes for the future 
+==============================
+
+-->

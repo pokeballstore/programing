@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Lesson x -->
+
+<meta name="color-scheme" content="dark">
+
+<script>
+// ==============================
+// 1) Introduction
+// ==============================
+alert("Hello! I am glad to see that you understand that the computer is smarter than a human. Follow the instructions and enter three different numbers and I will do a calculation for you."); 
+
+// ==============================
+// 2) Variables and Input
+// ==============================
+var number1 = Number(prompt("Yes, first number.")); 
+var number2 = Number(prompt("Please, go on, next number.")); 
+var number3 = Number(prompt("This is the last one, thanks for your cooperation, I will reveal the truth after you enter the last number.")); 
+
+// ==============================
+// 3) Actions and result
+// ==============================
+if (number1 > number2 && number1 > number3) {
+    alert("You can go and make a coffee while I handle the calculation, you simple human."); 
+}
+else if (number2 > number1 && number2 > number3) {
+    alert("You can go and make a coffee while I handle the calculation, you simple human."); 
+}
+else if (number3 > number1 && number3 > number2) {
+    alert("You can go and make a coffee while I handle the calculation, you simple human."); 
+}
+else { 
+    alert("My expectations of you humans were low, but this? You did not follow the instruction to enter 3 different numbers. Take a deep breath and press F5."); 
+}
+
+// ==============================
+// 4) Result on the page
+// ==============================
+if (number1 > number2 && number1 > number3) {
+    document.write("Through hard work and a lot of earthly resources I can now show you that: " + number1 + " is the biggest number. Yes, you can say thank you now."); 
+}
+else if (number2 > number1 && number2 > number3) {
+    document.write("Through hard work and a lot of earthly resources I can now show you that: " + number2 + " is the biggest number. Yes, you can say thank you now."); 
+}
+else if (number3 > number1 && number3 > number2) {
+    document.write("Through hard work and a lot of earthly resources I can now show you that: " + number3 + " is the biggest number. Yes, you can say thank you now."); 
+}
+else {
+    document.write("And you pushed OK... this will be hard for you. Please press F5 (the button on top of your keyboard). Please tell me that I don't have to explain about FN.");  
+}
+
+// ==============================
+// 5) Console log
+// ==============================
+console.log("number1:", number1); 
+console.log("number2:", number2);
+console.log("number3:", number3);
+</script>
